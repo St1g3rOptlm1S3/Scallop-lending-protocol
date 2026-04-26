@@ -47,7 +47,7 @@ module protocol::mint {
   }
 
   /// @notice supply base asset and return the corresponding sCoin
-  /// @dev The returned sCoin is an intrest bearing token, and is standard coin buth without CoinMetadata.
+  /// @dev The returned sCoin is an intrest bearing token, and is standard coin but without CoinMetadata.
   ///      There's a limit for max total supply amount. Beyond this, trasanction will abort.
   /// @param version The version control object, contract version must match with this
   /// @param market The Scallop market object, it contains base assets, and related protocol configs
